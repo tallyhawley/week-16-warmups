@@ -22,7 +22,7 @@ public class WinterScenePanel extends JPanel implements Runnable
 		//populate the list with 50 unique snowflakes
 
 		//instantiate a snowman
-		sMan = new SnowMan(100,200,60,120);
+		sMan = new SnowMan(400,300,70,170);
 
 		new Thread(this).start();
 	}
